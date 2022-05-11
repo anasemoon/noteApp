@@ -60,7 +60,7 @@ const readNote=(title)=>{
 const listNoted=()=>{
     const notes=loadNotes()
     notes.forEach(note => {
-        console.log(note.title,"hello in the list")
+        console.log(note.title)
         
     });
 }
